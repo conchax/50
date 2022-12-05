@@ -1,0 +1,175 @@
+:root {
+  --color-monoc-alto: #474747;
+  --color-monoc-bajo: #dcdcdc;
+  --color-primario: #66e88a;
+  --color-secundario: #235b7c;
+  --color-titulo: #323232;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+body {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  color: var(--color-monoc-alto);
+}
+
+
+
+h1,
+.titulo-convocatoria {
+  font-size: 60px;
+  font-weight: 500;
+  color: var(--color-titulo)
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.parrafo {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
+
+.nombre-icono {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.registro {
+  background-image: url("../img/bg-registro.webp");
+  width: 100%;
+  height: 383px;
+  margin: 45px 0;
+  position: relative;
+}
+
+.media-kit {
+  background-image: url("../img/bg-media.webp");
+  background-position: center;
+  background-size: cover;
+  height: 292px;
+  margin: 45px 0;
+  padding: 25px 0;
+}
+
+.identidad {
+  position: absolute;
+  top: -60px;
+}
+
+.identidad img {
+  max-width: 518px;
+  max-height: 518px;
+}
+
+.zomecontrae {
+  transition-duration: .8s
+}
+
+.zomecontrae:hover {
+  -webkit-transform: scale(0.90);
+  transform: scale(0.90);
+  transition-duration: .8s;
+}
+
+.zoom {
+  transition-duration: .6s;
+  overflow: hidden;
+}
+
+.zoom:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition-duration: .6s;
+}
+
+.giro {
+  transition-duration: .4s
+}
+
+.giro:hover {
+  -webkit-transform: rotateY(360deg);
+  -webkit-transform-style: preserve-3d;
+  transform: rotateY(360deg);
+  transform-style: preserve-3d;
+  transition-duration: .4s;
+}
+
+
+
+a.ef img.blur {
+  transition-duration: .4s;
+}
+
+a.ef img:hover {
+  filter: blur(1.5px);
+  transition-duration: .4s;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+a.ef {
+  text-decoration: none;
+  transition-duration: .4s;
+  color: var(--color-monoc-alto);
+}
+
+a.ef:hover {
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  transition-duration: .4s;
+  color: var(--color-monoc-alto);
+}
+
+
+/* titulo animado */
+.contenedor {
+  margin: auto;
+  display: table;
+}
+
+h1 {
+  position: relative;
+  background: #fff;
+  color: var(--color-titulo);
+}
+
+h1 span {
+  position: absolute;
+  right: 0;
+  width: 0;
+  background: #fff;
+  border-left: 1px solid #fff;
+  animation: escribir 2s steps(20) alternate;
+  animation-iteration-count: 3;
+}
+
+@keyframes escribir {
+  from {
+    width: 100%
+  }
+
+  50% {
+    width: 0
+  }
+
+  to {
+    width: 0
+  }
+}
+
+
+/* bootstrap */
+.modal-content {
+  border-radius: 30px !important;
+}
+
+.modal-header {
+  align-items: start !important;
+}

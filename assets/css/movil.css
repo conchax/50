@@ -1,0 +1,35 @@
+@media (max-width: 575.8px) {
+
+  h1,
+  .titulo-convocatoria {
+    font-size: 40px;
+    margin: 0 auto;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  .registro {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px 0;
+    height: 660px;
+  }
+
+  .media-kit {
+    height: 460px;
+  }
+
+  .identidad img {
+    max-width: 320px;
+    max-height: 320px;
+    text-align: center;
+  }
+
+  .identidaddos {
+    position: absolute;
+    top: 250px;
+  }
+}
