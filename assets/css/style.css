@@ -88,21 +88,7 @@ h2 {
   transition-duration: .6s;
 }
 
-.giro {
-  transition-duration: .4s
-}
-
-.giro:hover {
-  -webkit-transform: rotateY(360deg);
-  -webkit-transform-style: preserve-3d;
-  transform: rotateY(360deg);
-  transform-style: preserve-3d;
-  transition-duration: .4s;
-}
-
-
-
-a.ef img.blur {
+/* a.ef img.blur {
   transition-duration: .4s;
 }
 
@@ -111,7 +97,7 @@ a.ef img:hover {
   transition-duration: .4s;
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-}
+} */
 
 a.ef {
   text-decoration: none;
@@ -127,6 +113,15 @@ a.ef:hover {
   color: var(--color-monoc-alto);
 }
 
+.black-color {
+  filter: grayscale(1);
+  transition: .5s ease-in-out;
+}
+
+.black-color:hover {
+  filter: grayscale(0);
+  transition: .5s ease-in-out;
+}
 
 /* titulo animado */
 .contenedor {
@@ -172,4 +167,40 @@ h1 span {
 
 .modal-header {
   align-items: start !important;
+}
+
+.progress {
+  width: 160px !important;
+  margin: 0 auto;
+  margin-top: 20px;
+  background: #dcdcdc;
+  color: #66e88a;
+}
+
+.progress-bar {
+  background-color: var(--color-primario);
+}
+
+.progress-two {
+  width: 160px !important;
+  margin: 0 auto;
+  margin-top: 20px;
+  background: #dcdcdc;
+  color: #FFF;
+}
+
+.progress-bar-two {
+  background-color: #E37EFC;
+}
+
+.progress-three {
+  width: 160px !important;
+  margin: 0 auto;
+  margin-top: 20px;
+  background: #dcdcdc;
+  color: #FFF;
+}
+
+.progress-bar-three {
+  background-color: #EDDE42;
 }
