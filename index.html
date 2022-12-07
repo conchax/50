@@ -110,7 +110,10 @@
 
             <div class="row justify-content-center text-center">
               <div class="col-12 col-md-6">
-                <img src="assets/img/boton-convocatoria.png" alt="ver convocatoria" class="zomecontrae">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#modal-convocatoria">
+                  <img src="assets/img/boton-convocatoria.png" alt="ver convocatoria" class="zomecontrae">
+                </a>
+
               </div>
               <div class="col-12 col-md-6">
                 <img src="assets/img/boton-registrate.png" alt="registrate" class="zomecontrae">
@@ -186,13 +189,16 @@
           <a href="#" data-bs-toggle="modal" data-bs-target="#modal-guia-50">
             <img src="assets/img/guia-50.png" alt="Generación 50" class="img-fluid zoom">
           </a>
-
         </div>
         <div class="col-12 col-md-4 text-center my-2">
-          <img src="assets/img/guia-51.png" alt="Generación 51" class="img-fluid zoom">
+          <a href="#" data-bs-toggle="modal" data-bs-target="#modal-guia-50">
+            <img src="assets/img/guia-51.png" alt="Generación 51" class="img-fluid zoom">
+          </a>
         </div>
         <div class="col-12 col-md-4 text-center my-2">
-          <img src="assets/img/guia-52.png" alt="Generación 52" class="img-fluid zoom">
+          <a href="#" data-bs-toggle="modal" data-bs-target="#modal-guia-50">
+            <img src="assets/img/guia-52.png" alt="Generación 52" class="img-fluid zoom">
+          </a>
         </div>
 
       </div>
@@ -529,9 +535,37 @@ modal-procesosLabel"><img src="assets/img/proceso-registro-50.png" alt="Proceso 
     </div>
   </div>
   <!-- //Modal Proceso 50 -->
+  <!-- CONVOCA -->
+  <div class="modal fade" id="modal-convocatoria" tabindex="-1" aria-labelledby="modal-procesos
+  modal-procesosLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered  modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="mx-auto" id="modal-procesos
+  modal-procesosLabel">CONVOCATORIA</div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container fluid">
+            <div class="row justify-content-center mt-4">
+              <iframe
+                src="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2022/11/09C.05_Bases_Convocatoria_2022-G49_V2F.pdf"
+                width="100%" height="600px"></iframe>
+
+              <p class="my-5 text-center">
+                <a href="#" class="btn btn-convo">Descargar convocatoria</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- //CONVOCA -->
 
 
   <!-- GUIAS  -->
+  <!-- guia50 -->
   <div class="modal fade" id="modal-guia-50" tabindex="-1" aria-labelledby="modal-procesos
   modal-procesosLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl modal-dialog-centered  modal-dialog-scrollable">
@@ -547,15 +581,48 @@ modal-procesosLabel"><img src="assets/img/proceso-registro-50.png" alt="Proceso 
               <iframe
                 src="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2022/11/09C.03-Guía_de_registro_2022_G49_VF.pdf"
                 width="100%" height="600px"></iframe>
+
+              <p class="my-5 text-center">
+                <a href="#" class="btn btn-convo">Descargar Guia</a>
+              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- GUIAS -->
+  <!-- guia50 -->
+  <!-- //GUIAS -->
+
   <!-- //PUPUPS -->
 
+  <!-- botonflotante -->
+  <div id="container-floating">
+    <div class="nd4 nds" data-toggle="tooltip" data-placement="left"><img class="reminder">
+      <p class="letter"><a href="https://prepaenlinea.sep.gob.mx/preguntas-frecuentes/" target="_blank"
+          rel="noopener noreferrer">Preguntas frecuentes</a></p>
+    </div>
+    <div class="nd3 nds" data-toggle="tooltip" data-placement="left"><img class="reminder">
+      <p class="letter"><a href="https://www.facebook.com/groups/1371975196570269" target="_blank"
+          rel="noopener noreferrer">Grupo de Facebook</a></p>
+    </div>
+    <div class="nd2 nds" data-toggle="tooltip" data-placement="left"><img class="reminder">
+      <p class="letter"><a href="https://prepaenlinea.sep.gob.mx/mesadeservicio/" target="_blank"
+          rel="noopener noreferrer">Mesa de servicio</a></p>
+    </div>
+    <div class="nd1 nds" data-toggle="tooltip" data-placement="left"><img class="reminder">
+      <p class="letter"><a
+          href="https://prepaenlinea.sep.gob.mx/nuestro-programa/plan-de-estudios/reingreso-revalidacion-y-equivalencia-de-estudios/"
+          target="_blank" rel="noopener noreferrer">Reingreso, revalidación</a> </p>
+    </div>
+
+    <div id="floating-button" data-toggle="tooltip" data-placement="left">
+      <p class="plus">Ayuda</p>
+      <img class="edit" src="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2022/03/fa_question.png">
+    </div>
+
+  </div>
+  <!-- // boton  flotante-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
