@@ -113,7 +113,25 @@ a.ef img:hover {
   transform: scale(1.1);
 } */
 a.ef .requisito:hover {
-  background-image: url("../img/1-.webp");
+  background-image: url("../img/1.gif");
+  width: 80px;
+  height: 80px;
+}
+
+a.ef .proceso:hover {
+  background-image: url("../img/2.gif");
+  width: 80px;
+  height: 80px;
+}
+
+a.ef .calendario:hover {
+  background-image: url("../img/3.gif");
+  width: 80px;
+  height: 80px;
+}
+
+a.ef .habilita:hover {
+  background-image: url("../img/4.gif");
   width: 80px;
   height: 80px;
 }
