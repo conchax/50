@@ -1,0 +1,32 @@
+[
+  {
+    "x": 70,
+    "y": 265,
+    "width": 140,
+    "height": 55,
+    "class": "to-page",
+    "data": {
+      "page": 6
+    }
+  },
+  {
+    "x": 210,
+    "y": 265,
+    "width": 60,
+    "height": 55,
+    "class": "to-page",
+    "data": {
+      "page": 8
+    }
+  },
+  {
+    "x": 280,
+    "y": 265,
+    "width": 160,
+    "height": 90,
+    "class": "to-page",
+    "data": {
+      "page": 10
+    }
+  }
+]

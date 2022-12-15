@@ -142,14 +142,6 @@ a.ef {
   color: var(--color-monoc-alto);
 }
 
-a.ef:hover {
-  font-weight: 500;
-  text-decoration: underline;
-  text-decoration-style: dashed;
-  transition-duration: .4s;
-  color: var(--color-monoc-alto);
-}
-
 .black-color {
   filter: grayscale(1);
   transition: .5s ease-in-out;
@@ -504,4 +496,65 @@ h1 span {
   right: 20px;
 }
 
-/* BOTON FLOTANTE */
+/* //BOTON FLOTANTE */
+.btn-48 {
+  background-color: #FFBD9C;
+  color: var(--color-titulo);
+  font-weight: 700;
+  padding: 10px 9px;
+  border: 5px double #fff;
+  border-radius: 25px;
+  text-decoration: none;
+  width: 230px;
+}
+
+.btn-48:hover {
+  background-color: #dcdcdc;
+  color: #FFBD9C;
+}
+
+.btn-49 {
+  background-color: #DB8DC5;
+  color: var(--color-titulo);
+  font-weight: 700;
+  padding: 10px 9px;
+  border: 5px double #fff;
+  border-radius: 25px;
+  text-decoration: none;
+  width: 230px;
+}
+
+.btn-49:hover {
+  background-color: #dcdcdc;
+  color: #DB8DC5;
+}
+
+.btn-one {
+  background-color: var(--color-secundario);
+  color: var(--color-primario);
+  font-weight: 700;
+  padding: 0 9px;
+  border: 12px solid transparent;
+  border-image: url('../img/trazo-one-.png') 11 round;
+  border-image-outset: 10px 6px;
+  border-radius: 25px;
+  text-decoration: none;
+  width: 230px;
+}
+
+.btn-one:hover {
+  background-color: var(--color-primario);
+  color: var(--color-secundario);
+}
+
+.btn-off {
+  background-color: var(--color-monoc-bajo) !important;
+  color: var(--color-titulo) !important;
+  border-image: none !important;
+  cursor: context-menu;
+}
+
+.magazine-viewport {
+  width: 980px !important;
+  height: 800px !important;
+}
