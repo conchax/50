@@ -558,3 +558,7 @@ h1 span {
   width: 980px !important;
   height: 800px !important;
 }
+
+.titulo-iconos {
+  padding-left: 200px;
+}
