@@ -69,6 +69,16 @@ h2 {
   padding: 25px 0;
 }
 
+.medik {
+  color: var(--color-monoc-alto);
+  text-decoration: none;
+}
+
+.medik:hover {
+  font-weight: 500;
+  color: var(--color-monoc-alto);
+}
+
 .identidad {
   position: absolute;
   top: -60px;
