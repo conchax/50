@@ -15,8 +15,6 @@ body {
   color: var(--color-monoc-alto);
 }
 
-
-
 h1,
 .titulo-convocatoria {
   font-size: 60px;
@@ -55,8 +53,8 @@ h2 {
 }
 
 .registro {
-  background-image: url("../img/bg-registro.webp");
-  width: 100%;
+  background-image: url("../img/bg-registro.png");
+  background-color: #F0F0F0;
   height: 383px;
   margin: 45px 0;
   position: relative;
@@ -561,4 +559,9 @@ h1 span {
 
 .titulo-iconos {
   padding-left: 200px;
+}
+
+.num-limite {
+  font-weight: 700;
+  color: var(--color-secundario);
 }
