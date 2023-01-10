@@ -160,41 +160,6 @@ a.ef {
   transition: .5s ease-in-out;
 }
 
-/* titulo animado */
-.contenedor {
-  margin: auto;
-  display: table;
-}
-
-h1 {
-  position: relative;
-  background: #fff;
-  color: var(--color-titulo);
-}
-
-h1 span {
-  position: absolute;
-  right: 0;
-  width: 0;
-  background: #fff;
-  border-left: 1px solid #fff;
-  animation: escribir 2s steps(20) alternate;
-  animation-iteration-count: 3;
-}
-
-@keyframes escribir {
-  from {
-    width: 100%
-  }
-
-  50% {
-    width: 0
-  }
-
-  to {
-    width: 0
-  }
-}
 
 
 /* bootstrap */
