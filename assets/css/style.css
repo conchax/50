@@ -480,6 +480,17 @@ a.ef {
   text-decoration: none;
 }
 
+.target-btn:hover,
+.btn-descarga:hover {
+  font-weight: 500;
+}
+
+.target-btn:active,
+.btn-descarga:active {
+  font-size: 13px;
+  font-weight: 500;
+}
+
 .btn-descarga:hover {
   color: var(--color-monoc-alto);
 }
