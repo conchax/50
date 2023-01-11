@@ -58,7 +58,7 @@ function loadApp() {
 
         // Update the current URI
 
-        Hash.go('../assets/page/' + page).update();
+        Hash.go('/page/' + page).update();
 
         // Show and hide navigation buttons
 
