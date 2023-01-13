@@ -32,4 +32,8 @@
     position: absolute;
     top: 250px;
   }
+
+  .titulo-iconos {
+    padding: 0px;
+  }
 }
