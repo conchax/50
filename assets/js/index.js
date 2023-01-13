@@ -382,8 +382,8 @@ $('#canvas').hide();
 
 yepnope({
   test: Modernizr.csstransforms,
-  yep: ['../assets/turn/turn.js'],
-  nope: ['../assets/turn/turn.html4.min.js'],
-  both: ['../assets/turn/zoom.min.js', '../assets/js/magazine.js', '../assets/turn/magazine.css'],
+  yep: ['assets/turn/turn.js'],
+  nope: ['assets/turn/turn.html4.min.js'],
+  both: ['assets/turn/zoom.min.js', 'assets/js/magazine.js', 'assets/turn/magazine.css'],
   complete: loadApp
 });
