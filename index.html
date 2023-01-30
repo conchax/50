@@ -337,7 +337,7 @@
 
   <section class="proceso">
     <div class="container">
-      <div class="row justify-content-center ">
+      <div class="row justify-content-center">
         <div class="col-12">
           <h2 style="font-weight: 400;" class="mb-4">Sigue tu <strong>proceso</strong> de registro.</h2>
           <p class="parrafo text-center">
@@ -359,7 +359,6 @@
           <div class="progress progress-three">
             <div class="progress-bar-three progress-bar-striped progress-bar-animated" role="progressbar"
               aria-label="convocatoria 48" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
-
             </div>
           </div>
 
@@ -368,38 +367,32 @@
           <a href="#" data-bs-toggle="modal" data-bs-target="#modal-procesos-49">
             <img src="assets/img/c-49.png" alt="Generación 51" class="img-fluid black-color" width="250" height="115">
           </a>
-
           <div class="progress progress-two">
             <div class="progress-bar-two progress-bar-striped progress-bar-animated" role="progressbar"
               aria-label="convocatoria 49" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
-
             </div>
           </div>
 
         </div>
         <div class="col-12 col-md-4 text-center my-4">
-
-
           <a href="#" data-bs-toggle="modal" data-bs-target="#modal-procesos-50">
             <img src="assets/img/c-50.png" alt="Generación 50" class="img-fluid black-color" width="250" height="115">
           </a>
-
           <div class="progress">
             <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
               aria-label="convocatoria 50" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 15%">
-
             </div>
           </div>
-
         </div>
+
+
         <div class="col-12 mt-5">
           <p class="parrafo text-center">
             Descarga la guía de registro para consultarla en cualquier momento.
           </p>
         </div>
       </div>
-
-      <div class="row justify-content-center mt-5">
+      <div class="row justify-content-center my-5">
         <div class="col-12 col-md-4 text-center my-2">
           <a href="#" data-bs-toggle="modal" data-bs-target="#modal-guia-48">
             <img src="assets/img/guia-48.png" alt="Generación 48" class="img-fluid zoom" width="240" height="74">
@@ -420,7 +413,7 @@
     </div>
   </section>
 
-  <section class="media-kit">
+  <section class="media-kit d-none">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -1247,8 +1240,8 @@ modal-procesosPro50"><img src="assets/img/proceso-registro-50.png" alt="Proceso 
                 </p>
               </div>
               <div class="col-12 col-md text-center">
-                <a href="http://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/preregistro/estatus"
-                  class="btn btn-one" role="button" target="_blank" rel="noopener noreferrer">¡ Regístrate aquí !</a>
+                <a href="#" class="btn btn-one btn-off" role="button" target="_blank" rel="noopener noreferrer">¡
+                  Regístrate aquí !</a>
               </div>
             </div>
             <img src="assets/img/line-process.png" alt="linea uno" class="img-fluid text-center">
@@ -1268,8 +1261,8 @@ modal-procesosPro50"><img src="assets/img/proceso-registro-50.png" alt="Proceso 
                 </p>
               </div>
               <div class="col-12 col-md text-center">
-                <a href="http://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus" class="btn btn-one"
-                  role="button" target="_blank" rel="noopener noreferrer">Consultar estatus</a>
+                <a href="#" class="btn btn-one btn-off" role="button" target="_blank"
+                  rel="noopener noreferrer">Consultar estatus</a>
               </div>
             </div>
             <img src="assets/img/line-process.png" alt="linea dos" class="img-fluid text-center">
@@ -1792,7 +1785,6 @@ tu bachillerato en línea.
         vidDefer[i].setAttribute('src', vidDefer[i].getAttribute('data-src'));
       }
     }
-
     async function loadBlob(fileName) {
       // Funcion que lee la imagen
       const fetched = await fetch(fileName);
@@ -1815,17 +1807,17 @@ tu bachillerato en línea.
   </script>
 
   <script>
-    window.addEventListener("load", function (event) {
-      let ancla = window.location.hash;
-      console.log(ancla);
-      if (ancla == '#media-kit') {
-        console.log('Es igual');
-        let boton = document.getElementById('boton-media-kit').click();
-      } else {
-        console.log('No es igual');
-      }
-    });
-
+    /*     window.addEventListener("load", function (event) {
+          let ancla = window.location.hash;
+          console.log(ancla);
+          if (ancla == '#media-kit') {
+            console.log('Es igual');
+            let boton = document.getElementById('boton-media-kit').click();
+          } else {
+            console.log('No es igual');
+          }
+        });
+     */
   </script>
 
 
