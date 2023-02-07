@@ -53,7 +53,7 @@ h2 {
 }
 
 .registro {
-  background-image: url("../img/bg-registro.png");
+  background-image: url("../img/bg-registro-51.png");
   background-color: #F0F0F0;
   height: 383px;
   margin: 45px 0;
@@ -81,12 +81,13 @@ h2 {
 
 .identidad {
   position: absolute;
-  top: -60px;
+  top: -20px;
+  left: 30px;
 }
 
 .identidad img {
-  max-width: 518px;
-  max-height: 518px;
+  max-width: 441px;
+
 }
 
 .zomecontrae {
@@ -601,4 +602,9 @@ a.ef {
 
 .navbar-brand {
   margin-right: 0px !important;
+}
+
+
+.identidaddos {
+  margin-top: 60px;
 }
