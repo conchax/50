@@ -85,7 +85,7 @@ h2 {
 .identidad {
   position: absolute;
   top: -20px;
-  left: 30px;
+  left: 85px;
 }
 
 .identidad img {
@@ -586,7 +586,7 @@ a.ef {
 
 .num-limite {
   font-weight: 700;
-  color: var(--color-secundario);
+  color: var(--color-two-primario);
 }
 
 
