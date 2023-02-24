@@ -30,6 +30,14 @@
 
   .identidaddos {
     position: absolute;
-    top: 250px;
+    top: 350px;
+  }
+
+  .titulo-iconos {
+    padding: 0px;
+  }
+
+  .navbar {
+    height: 75px;
   }
 }

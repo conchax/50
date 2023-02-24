@@ -5,6 +5,9 @@
   --color-secundario: #235b7c;
   --color-titulo: #323232;
   --color-contraste: #474747;
+
+  --color-two-primario: #4E3BA8;
+  --color-two-secundario: #E37EFC;
 }
 
 
@@ -53,7 +56,7 @@ h2 {
 }
 
 .registro {
-  background-image: url("../img/bg-registro.png");
+  background-image: url("../img/bg-registro-51.png");
   background-color: #F0F0F0;
   height: 383px;
   margin: 45px 0;
@@ -61,7 +64,7 @@ h2 {
 }
 
 .media-kit {
-  background-image: url("../img/bg-media.webp");
+  background-image: url("../img/bg-media-51.png");
   background-position: center;
   background-size: cover;
   height: 292px;
@@ -81,12 +84,12 @@ h2 {
 
 .identidad {
   position: absolute;
-  top: -60px;
+  top: -20px;
 }
 
 .identidad img {
-  max-width: 518px;
-  max-height: 518px;
+  max-width: 441px;
+
 }
 
 .zomecontrae {
@@ -546,6 +549,24 @@ a.ef {
   color: var(--color-secundario);
 }
 
+.btn-two {
+  background-color: var(--color-two-primario);
+  color: var(--color-two-secundario);
+  font-weight: 700;
+  padding: 0 9px;
+  border: 12px solid transparent;
+  border-image: url('../img/trazo-two.png') 9 round;
+  border-image-outset: 10px 6px;
+  border-radius: 25px;
+  text-decoration: none;
+  width: 230px;
+}
+
+.btn-two:hover {
+  background-color: var(--color-two-secundario);
+  color: var(--color-two-primario);
+}
+
 .btn-off {
   background-color: var(--color-monoc-bajo) !important;
   color: var(--color-titulo) !important;
@@ -564,5 +585,46 @@ a.ef {
 
 .num-limite {
   font-weight: 700;
-  color: var(--color-secundario);
+  color: var(--color-two-primario);
+}
+
+
+.bg-dark {
+  background-color: #3d3d3d !important;
+  font-size: 13.6px;
+}
+
+.dropdown-item {
+  color: #fff !important;
+}
+
+.dropdown-item:hover {
+  color: #000 !important;
+}
+
+.navbar {
+  height: 40px;
+}
+
+.footer_gobierno a {
+  color: #fff !important;
+
+}
+
+.logo {
+  background-image: url("https://prepaenlinea.sep.gob.mx/wp-content/uploads/2023/01/logo-PLS-menu2023.png") !important;
+  margin: 5px !important;
+  width: 50px !important;
+  height: 38px !important;
+  background-repeat: no-repeat;
+
+}
+
+.navbar-brand {
+  margin-right: 0px !important;
+}
+
+
+.identidaddos {
+  margin-top: 0px;
 }
