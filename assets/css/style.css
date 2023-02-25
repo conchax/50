@@ -56,7 +56,7 @@ h2 {
 }
 
 .registro {
-  background-image: url("../img/bg-registro-51.png");
+  background-image: url("../img/bg-registro-52.png");
   background-color: #F0F0F0;
   height: 383px;
   margin: 45px 0;
@@ -84,7 +84,7 @@ h2 {
 
 .identidad {
   position: absolute;
-  top: -20px;
+  top: -40px;
 }
 
 .identidad img {
