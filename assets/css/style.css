@@ -207,7 +207,7 @@ a.ef {
 }
 
 .progress-bar-three {
-  background-color: #FFBD9C;
+  background-color: #EDDE42;
 }
 
 .sombra {
@@ -547,6 +547,24 @@ a.ef {
 .btn-one:hover {
   background-color: var(--color-primario);
   color: var(--color-secundario);
+}
+
+.btn-two {
+  background-color: var(--color-two-primario);
+  color: var(--color-two-secundario);
+  font-weight: 700;
+  padding: 0 9px;
+  border: 12px solid transparent;
+  border-image: url('../img/trazo-two.png') 9 round;
+  border-image-outset: 10px 6px;
+  border-radius: 25px;
+  text-decoration: none;
+  width: 230px;
+}
+
+.btn-th:hover {
+  background-color: var(--color-two-secundario);
+  color: var(--color-two-primario);
 }
 
 .btn-two {
