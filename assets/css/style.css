@@ -68,8 +68,8 @@ h2 {
 
 .media-kit {
   background-image: url("../img/bg-media-52.png");
+  background-repeat: no-repeat;
   background-color: #F0F0F0;
-  background-position: center;
   height: 292px;
   margin: 45px 0;
   padding: 25px 0;

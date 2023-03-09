@@ -12,14 +12,14 @@
 
   .registro {
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
     padding: 20px 0;
-    height: 660px;
+    height: 760px;
   }
 
   .media-kit {
     height: 460px;
+    background-size: cover;
   }
 
   .identidad img {
