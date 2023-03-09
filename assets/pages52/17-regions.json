@@ -1,0 +1,82 @@
+  [
+    {
+      "x": 418,
+      "y": 218,
+      "width": 24,
+      "height": 24,
+      "class": "to-page",
+      "data": {
+        "page": 6
+      }
+    },
+    {
+      "x": 418,
+      "y": 257,
+      "width": 24,
+      "height": 24,
+      "class": "to-page",
+      "data": {
+        "page": 8
+      }
+    },
+    {
+      "x": 418,
+      "y": 291,
+      "width": 24,
+      "height": 24,
+      "class": "to-page",
+      "data": {
+        "page": 10
+      }
+    },
+    {
+      "x": 418,
+      "y": 321,
+      "width": 24,
+      "height": 24,
+      "class": "to-page",
+      "data": {
+        "page": 21
+      }
+    },
+    {
+      "x": 418,
+      "y": 351,
+      "width": 24,
+      "height": 24,
+      "class": "to-page",
+      "data": {
+        "page": 22
+      }
+    },
+    {
+      "x": 418,
+      "y": 399,
+      "width": 24,
+      "height": 24,
+      "class": "to-page",
+      "data": {
+        "page": 24
+      }
+    },
+    {
+      "x": 418,
+      "y": 429,
+      "width": 24,
+      "height": 24,
+      "class": "to-page",
+      "data": {
+        "page": 25
+      }
+    },
+    {
+      "x": 60,
+      "y": 150,
+      "width": 170,
+      "height": 15,
+      "class": "link",
+      "data": {
+        "url": "https://prepaenlinea.sep.gob.mx/"
+      }
+    }
+  ]

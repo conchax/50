@@ -8,6 +8,9 @@
 
   --color-two-primario: #4E3BA8;
   --color-two-secundario: #E37EFC;
+
+  --color-three-primario:#EA7221;
+  --color-three-secundario:#EDDE42;
 }
 
 
@@ -64,9 +67,9 @@ h2 {
 }
 
 .media-kit {
-  background-image: url("../img/bg-media-51.png");
+  background-image: url("../img/bg-media-52.png");
+  background-color: #F0F0F0;
   background-position: center;
-  background-size: cover;
   height: 292px;
   margin: 45px 0;
   padding: 25px 0;
@@ -549,23 +552,6 @@ a.ef {
   color: var(--color-secundario);
 }
 
-.btn-two {
-  background-color: var(--color-two-primario);
-  color: var(--color-two-secundario);
-  font-weight: 700;
-  padding: 0 9px;
-  border: 12px solid transparent;
-  border-image: url('../img/trazo-two.png') 9 round;
-  border-image-outset: 10px 6px;
-  border-radius: 25px;
-  text-decoration: none;
-  width: 230px;
-}
-
-.btn-th:hover {
-  background-color: var(--color-two-secundario);
-  color: var(--color-two-primario);
-}
 
 .btn-two {
   background-color: var(--color-two-primario);
@@ -583,6 +569,24 @@ a.ef {
 .btn-two:hover {
   background-color: var(--color-two-secundario);
   color: var(--color-two-primario);
+}
+
+.btn-three {
+  background-color: var(--color-three-primario);
+  color: var(--color-three-secundario);
+  font-weight: 700;
+  padding: 0 9px;
+  border: 12px solid transparent;
+  border-image: url('../img/trazo-three.png') 10 round;
+  border-image-outset: 10px 6px;
+  border-radius: 25px;
+  text-decoration: none;
+  width: 230px;
+}
+
+.btn-three:hover {
+  background-color: var(--color-three-secundario);
+  color: var(--color-three-primario);
 }
 
 .btn-off {
