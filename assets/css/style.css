@@ -9,8 +9,8 @@
   --color-two-primario: #4E3BA8;
   --color-two-secundario: #E37EFC;
 
-  --color-three-primario:#EA7221;
-  --color-three-secundario:#EDDE42;
+  --color-three-primario: #EA7221;
+  --color-three-secundario: #EDDE42;
 }
 
 
@@ -649,4 +649,9 @@ a.ef {
 
 .identidaddos {
   margin-top: 0px;
+}
+
+.text-bold-color {
+  font-weight: 700;
+  color: var(--color-three-primario);
 }
