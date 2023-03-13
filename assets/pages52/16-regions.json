@@ -78,5 +78,15 @@
     "data": {
       "url": "https://prepaenlinea.sep.gob.mx/mesadeservicio/"
     }
+  },
+  {
+    "x": 345,
+    "y": 150,
+    "width": 70,
+    "height": 15,
+    "class": "link",
+    "data": {
+      "url": "http://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope"
+    }
   }
 ]

@@ -68,5 +68,15 @@
     "data": {
       "page": 25
     }
+  },
+  {
+    "x": 295,
+    "y": 505,
+    "width": 125,
+    "height": 20,
+    "class": "link",
+    "data": {
+      "url": "https://prepaenlinea.sep.gob.mx/convocatorias-2023/"
+    }
   }
 ]

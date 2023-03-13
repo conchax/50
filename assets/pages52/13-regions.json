@@ -78,5 +78,15 @@
     "data": {
       "url": "https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/"
     }
+  },
+  {
+    "x": 60,
+    "y": 450,
+    "width": 300,
+    "height": 60,
+    "class": "link",
+    "data": {
+      "url": "http://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope"
+    }
   }
 ]
