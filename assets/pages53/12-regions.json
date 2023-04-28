@@ -1,0 +1,82 @@
+[
+  {
+    "x": 25,
+    "y": 217,
+    "width": 24,
+    "height": 24,
+    "class": "to-page",
+    "data": {
+      "page": 6
+    }
+  },
+  {
+    "x": 25,
+    "y": 257,
+    "width": 24,
+    "height": 24,
+    "class": "to-page",
+    "data": {
+      "page": 8
+    }
+  },
+  {
+    "x": 25,
+    "y": 291,
+    "width": 24,
+    "height": 24,
+    "class": "to-page",
+    "data": {
+      "page": 10
+    }
+  },
+  {
+    "x": 25,
+    "y": 321,
+    "width": 24,
+    "height": 24,
+    "class": "to-page",
+    "data": {
+      "page": 21
+    }
+  },
+  {
+    "x": 25,
+    "y": 351,
+    "width": 24,
+    "height": 24,
+    "class": "to-page",
+    "data": {
+      "page": 22
+    }
+  },
+  {
+    "x": 25,
+    "y": 399,
+    "width": 24,
+    "height": 24,
+    "class": "to-page",
+    "data": {
+      "page": 24
+    }
+  },
+  {
+    "x": 25,
+    "y": 429,
+    "width": 24,
+    "height": 24,
+    "class": "to-page",
+    "data": {
+      "page": 25
+    }
+  },
+  {
+    "x": 270,
+    "y": 485,
+    "width": 140,
+    "height": 45,
+    "class": "link",
+    "data": {
+      "url": "https://www.gob.mx/curp/"
+    }
+  }
+]
