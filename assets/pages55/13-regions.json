@@ -76,7 +76,7 @@
     "height": 15,
     "class": "link",
     "data": {
-      "url": "https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/"
+      "url": "http://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus"
     }
   },
   {
@@ -86,7 +86,7 @@
     "height": 60,
     "class": "link",
     "data": {
-      "url": "http://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope"
+      "url": "http://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus"
     }
   }
 ]
