@@ -59,7 +59,7 @@ h2 {
 }
 
 .registro {
-  background-image: url("../img/bg-registro-51.png");
+  background-image: url("../img/bg-registro-52.png");
   background-color: #F0F0F0;
   height: 383px;
   margin: 45px 0;
@@ -89,7 +89,7 @@ h2 {
 }
 
 .identidad img {
-  max-width: 441px;
+  max-width: 560px;
 
 }
 
@@ -646,7 +646,7 @@ a.ef {
 
 
 .identidaddos {
-  margin-top: 0px;
+  margin-top: 40px;
 }
 
 .text-bold-color {
