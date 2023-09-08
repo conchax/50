@@ -67,7 +67,7 @@ h2 {
 }
 
 .media-kit {
-  background-image: url("../img/bg-media-51.png");
+  background-image: url("../img/bg-media-52.png");
   background-color: #F0F0F0;
   height: 292px;
   margin: 45px 0;
@@ -651,5 +651,5 @@ a.ef {
 
 .text-bold-color {
   font-weight: 700;
-  color: var(--color-two-primario);
+  color: var(--color-three-primario);
 }
