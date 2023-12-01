@@ -15,6 +15,7 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+@import url('https://prepaenlinea.sep.gob.mx/wp-content/themes/Avada/includes/lib/assets/fonts/icomoon/icomoon.woff');
 
 body {
   font-family: Montserrat, Arial, Helvetica, sans-serif;
@@ -629,6 +630,19 @@ a.ef {
 .footer_gobierno a {
   color: #fff !important;
 
+}
+.footer{
+  padding: 0 7em;
+}
+.footer a{
+ color: #fff;
+ text-decoration: none;
+ border-bottom:1px solid #26303e;
+ padding-bottom: 12px;
+}
+.footer a:hover{
+  color: #65bc7b;
+  text-decoration: underline;
 }
 
 .logo {
