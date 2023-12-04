@@ -632,8 +632,25 @@ a.ef {
 
 }
 .footer{
-  padding: 0 7em;
+  background-color: #212934;
+  padding:2em 3em;
 }
+
+@media (max-width: 1399.98px) { 
+  .footer{
+    padding:2em 5em;
+  }
+ }
+@media (max-width: 991.98px) { 
+  .footer{
+    padding:2em 5em;
+  }
+ }
+@media (max-width: 575.98px) { 
+  .footer{
+    padding:2em 1.5em;
+  }
+ }
 .footer a{
  color: #fff;
  text-decoration: none;
