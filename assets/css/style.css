@@ -571,8 +571,8 @@ a.ef {
 }
 
 .btn-three {
-  background-color: var(--color-three-primario);
-  color: var(--color-three-secundario);
+  background-color: var(--color-three-primario)!important;
+  color: var(--color-three-secundario)!important;
   font-weight: 700;
   padding: 0 9px;
   border: 12px solid transparent;
@@ -662,14 +662,14 @@ a.ef {
   text-decoration: underline;
 }
 
-.logo {
+/* .logo {
   background-image: url("https://prepaenlinea.sep.gob.mx/wp-content/uploads/2023/01/logo-PLS-menu2023.png") !important;
   margin: 5px !important;
   width: 50px !important;
   height: 38px !important;
   background-repeat: no-repeat;
 
-}
+} */
 
 .navbar-brand {
   margin-right: 0px !important;
